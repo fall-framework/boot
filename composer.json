@@ -1,0 +1,17 @@
+{
+  "name": "fall/boot",
+  "description": "Library containing tool for launching applications",
+  "require": {
+    "php": "^7.1",
+    "fall/core": "dev-master",
+    "fall/context": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "fall\\boot\\": "src"
+    }
+  }
+}
